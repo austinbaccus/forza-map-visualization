@@ -6,6 +6,12 @@
     <br/>
 </p>
 
+<p>
+    <img src="https://user-images.githubusercontent.com/10345834/140441163-4b892d1a-566c-4a64-a286-d10874e430b1.gif" width="26%" align=center>
+    <img src="https://user-images.githubusercontent.com/10345834/140441128-06056bd6-a3e1-4185-83ce-5c7d770c8a43.gif" width="44%" align=center>
+    <img src="https://user-images.githubusercontent.com/10345834/140441210-4d1b2019-f29c-468c-8c42-1b33ef23751c.png" width="27%" align=center>
+</p>
+
 ## 🏁 Quick Start <a name="quick_start"></a>
 
 1. Clone this repository: `git clone https://github.com/austinbaccus/forza-map-visualization.git`
