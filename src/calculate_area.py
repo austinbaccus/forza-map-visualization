@@ -29,4 +29,4 @@ def get_data(filename):
 for filename in files:
     data = get_data(filename)
     pgon = Polygon(zip(data[0], data[2]))
-    print(filename, pgon.area/1000)
+    print(filename, pgon.area, "m^2")
