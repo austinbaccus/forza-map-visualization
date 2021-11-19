@@ -22,9 +22,9 @@ folder_path = '../data/*csv'
 # y: -550, 550
 # x: -5.5, 5.5
 map_bounds = dict(
-        xaxis=dict(range=[-7000,7000]),
-        yaxis=dict(range=[-8000,6000]),
-        zaxis=dict(range=[-2000,2400])
+        xaxis=dict(range=[-13000,10000]),
+        yaxis=dict(range=[-13000,10000]),
+        zaxis=dict(range=[-13000,10000])
 )
 
 # create and offset the racing line
@@ -57,12 +57,12 @@ files += load_files(folder_path)
 # create plot
 fig = go.Figure()
 fig.update_yaxes(gridwidth=0)
-fig.layout.template = 'plotly_dark' # enable for dark mode
+#fig.layout.template = 'plotly_dark' # enable for dark mode
 fig.update_layout(scene=map_bounds)
 
 # add data from each file in folder to the graph
 for filename in files:
-    if ("highway" in filename): # example of how to turn a certain file's racing line data a different color and give it a different location on the graph
+    if ("fh4" in filename): # example of how to turn a certain file's racing line data a different color and give it a different location on the graph
         fig.add_trace(create_racing_line(filename,0,0,0,'blue'))
     else: 
         fig.add_trace(create_racing_line(filename,0,0,0,'red'))
